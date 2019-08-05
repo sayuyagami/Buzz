@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "874541670971",
+    "firebase_url": "https://buzz-fd4d2.firebaseio.com",
+    "project_id": "buzz-fd4d2",
+    "storage_bucket": "buzz-fd4d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874541670971:android:548c5554639fc898",
+        "android_client_info": {
+          "package_name": "com.app.remainder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874541670971-1fotadip94pilghn8pjjer39dhnpj7d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.remainder",
+            "certificate_hash": "ed24441c610d8aff16f3c92103bb31ab3381a3ae"
+          }
+        },
+        {
+          "client_id": "874541670971-7i093culnsjsl85i3e28pghbl1hpp51n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7h4W-7qRYOYB3UK3CQ1f-g5oWwH9wS_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874541670971-7i093culnsjsl85i3e28pghbl1hpp51n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".Modifyremainder">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:cardBackgroundColor="#B764D3"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="10sp">
+
+        <TextView
+            android:id="@+id/a"
+            android:padding="24sp"
+            android:layout_margin="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textColor="#fff"
+            android:textSize="45sp" />
+
+    </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/b"
+            android:textSize="30sp"
+            android:padding="10sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp" />
+
+        <TextView
+            android:id="@+id/c"
+            android:textSize="30sp"
+            android:padding="10sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp" />
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20dp"
+            android:padding="10sp"
+            android:text="Enable/disable"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <Switch
+            android:id="@+id/simpleSwitch"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/d"
+            android:layout_alignLeft="@+id/d"
+            android:layout_alignTop="@+id/d"
+            android:layout_alignEnd="@+id/d"
+            android:layout_alignRight="@+id/d"
+            android:layout_alignBottom="@+id/d"
+            android:layout_marginStart="249dp"
+            android:layout_marginLeft="249dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="10dp"
+            android:checked="true"
+            android:padding="10sp" />
+    </RelativeLayout>
+</LinearLayout>
